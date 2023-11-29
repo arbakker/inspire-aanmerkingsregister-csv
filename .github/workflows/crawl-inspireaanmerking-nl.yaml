@@ -16,9 +16,7 @@ jobs:
 
     - name: Check-out repository
       uses: actions/checkout@v2
-      with:
-        repository: jcdan3/devops
-        token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
