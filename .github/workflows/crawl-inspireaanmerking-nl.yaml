@@ -37,3 +37,4 @@ jobs:
         committer_email: 41898282+github-actions[bot]@users.noreply.github.com
         add: inspireaanmerking.nl.csv
         message: 'update inspireaanmerking.nl.csv'
+        commit: --allow-empty
